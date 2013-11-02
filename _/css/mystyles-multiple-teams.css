@@ -1,0 +1,116 @@
+/************* start header************/
+.nav > li > a:hover,
+.nav > li > a:focus {
+  text-decoration: none;
+  background-color: black;
+}
+.body-header {
+  background: black;
+  box-shadow: -2px 1px 1px #808080;
+}
+.header-container {
+  background: black;
+  display: table;
+  margin: 0px auto;
+}
+/***************** end header *************/
+.index {
+  margin-left: 220px;
+  margin-right: 200px;
+  background: url(../../images/bkgrn.png) repeat scroll left right top bottom transparent;
+}
+@media (max-width: 767px) {
+  .index {
+    -webkit-border-radius: 20px 0 0 0;
+    -moz-border-radius: 20px 0 0 0;
+    border-radius: 20px 0 0 0;
+  }
+}
+/*********** start footer *******/
+.body-footer {
+  background: black;
+  box-shadow: -2px 1px 1px #808080;
+}
+footer ul.breadcrumb {
+  background: black;
+  margin: 0 auto;
+  -webkit-border-radius: 0;
+  -moz-border-radius: 0;
+  border-radius: 0;
+}
+footer ul.breadcrumb li {
+  text-shadow: none;
+}
+footer ul.breadcrumb li a {
+  color: white;
+}
+.titl-cont {
+  display: table;
+  margin: 0px auto;
+  margin-top: 20px;
+}
+/*****************Start idea profile publcity wanted ************/
+.mutiple-teams-container {
+  background: #ffffff none repeat scroll 0% 0% auto padding-box border-box;
+  border: 1px solid #d0d5cb;
+  border-radius: 5px 5px 5px 5px;
+  box-shadow: 0px 0px 0px 4px rgba(208, 213, 203, 0.298039);
+  color: #121a0d;
+  font: normal normal normal 16px/24px 'Helvetica Neue', Helvetica, Arial, 'Liberation Sans', FreeSans, sans-serif;
+  margin-top: 20px;
+  outline: #121a0d none 0px;
+  margin-bottom: 30px;
+  padding-bottom: 30px;
+}
+.thum-group {
+  margin-bottom: 20px;
+  background: lightgray;
+}
+.team-leader {
+  margin-left: 2px;
+}
+.thumb-container1 {
+  background: lightgray;
+  margin-top: 40px;
+  margin-right: 20px;
+  padding-left: 20px;
+  padding-top: 5px;
+}
+.thum-group-th {
+  margin-bottom: 10px;
+  border: 1px solid lightgray;
+  background: lightgray;
+}
+.glyphicon-user {
+  zoom: 3;
+  width: 100%;
+}
+.thumb-team-lead-post {
+  margin-bottom: 40px;
+  height: 100px;
+  box-shadow: 0 0 1px 1px #E6E0F8;
+}
+.thumb-user-post {
+  height: 1000px;
+  box-shadow: 0 0 1px 1px #E6E0F8;
+}
+.mul-teams {
+  margin-top: 20px;
+  margin-left: 20px;
+}
+.more {
+  -bottom: 20px;
+  padding-right: 20px;
+}
+.btn-width {
+  width: 80%;
+  margin-top: 20px;
+}
+.button-intro {
+  margin-top: 15px;
+  margin-bottom: 10px;
+  margin-left: 30px;
+}
+.glyphicon-info-sign {
+  padding-top: 10px;
+}

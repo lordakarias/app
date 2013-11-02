@@ -1,0 +1,301 @@
+/************* start header************/
+.nav > li > a:hover,
+.nav > li > a:focus {
+  text-decoration: none;
+  background-color: black;
+}
+.body-header {
+  background: black;
+  box-shadow: -2px 1px 1px #808080;
+}
+.header-container {
+  background: black;
+  display: table;
+  margin: 0px auto;
+}
+/***************** end header *************/
+.index {
+  margin-left: 220px;
+  margin-right: 200px;
+  background: url(../../images/bkgrn.png) repeat scroll left right top bottom transparent;
+}
+@media (max-width: 767px) {
+  .index {
+    -webkit-border-radius: 20px 0 0 0;
+    -moz-border-radius: 20px 0 0 0;
+    border-radius: 20px 0 0 0;
+  }
+}
+/*****************Start idea profile publcity wanted ************/
+.idea-profile-publicity-container {
+  background: #ffffff none repeat scroll 0% 0% auto padding-box border-box;
+  border: 1px solid #d0d5cb;
+  border-radius: 5px 5px 5px 5px;
+  box-shadow: 0px 0px 0px 4px rgba(208, 213, 203, 0.298039);
+  color: #121a0d;
+  font: normal normal normal 16px/24px 'Helvetica Neue', Helvetica, Arial, 'Liberation Sans', FreeSans, sans-serif;
+  margin: 0px 178.5px;
+  margin-top: 20px;
+  outline: #121a0d none 0px;
+  margin-bottom: 30px;
+  padding-bottom: 30px;
+}
+/*************** start idea title *************/
+.idea-title-container {
+  background: white;
+}
+.jumbotron {
+  background: yellow;
+  margin: 10px;
+}
+.idea-title-para {
+  display: table;
+  margin: 0px auto;
+  padding-bottom: 10px;
+  padding-top: 20px;
+}
+.intro-idea-container {
+  background: white;
+}
+.well {
+  padding: 0px;
+  border-bottom: 0px solid white;
+}
+.image-title {
+  zoom: 0.9;
+  width: 100%;
+}
+.why-what {
+  display: table;
+  margin: 0px auto;
+  background: white;
+  padding-top: 10px;
+}
+.what-why-date-view {
+  display: table;
+  margin: 0px auto;
+  background: white;
+}
+/*************** end idea title *************/
+.panel-heading .accordion-toggle:after {
+  /* symbol for "opening" panels */
+
+  font-family: 'Glyphicons Halflings';
+  /* essential for enabling glyphicon */
+
+  content: "\e114";
+  /* adjust as needed, taken from bootstrap.css */
+
+  float: right;
+  /* adjust as needed */
+
+  color: white;
+  /* adjust as needed */
+
+}
+.panel-heading .accordion-toggle.collapsed:after {
+  /* symbol for "collapsed" panels */
+
+  content: "\e080";
+  /* adjust as needed, taken from bootstrap.css */
+
+}
+/*********** start idea desciption **************/
+.idea-description-publicity-wanted {
+  padding-left: 35px;
+}
+.idea-description-left {
+  border-radius: 1px solid lightblue;
+}
+.body-idea-description-publicity-wanted {
+  margin-bottom: 30px;
+}
+.gly-right {
+  padding: 0px;
+  margin: 0px;
+}
+.img-left {
+  width: 100%;
+  height: 65px;
+  padding: 0px;
+  margin: 0px;
+}
+.lef {
+  width: 100%;
+  background: red;
+  padding: 0px;
+  margin: 0px;
+}
+.rig {
+  width: 100%;
+  background: white;
+  padding: 0px;
+  margin: 0px;
+}
+.idea-description-right-left {
+  padding-right: 0px;
+  padding-left: 0px;
+  padding-bottom: ;
+}
+.idea-description-right-right {
+  padding: 0px;
+  padding-left: 5px;
+}
+.glyphicon-user,
+.glyphicon-thumbs-up,
+.glyphicon-globe {
+  zoom: 0.8;
+  -moz-transform: scale(2);
+  /* Firefox */
+}
+.colr {
+  padding: 0px;
+  font-size: 12px;
+}
+h5,
+h4 {
+  padding: 0px;
+  margin: 0px;
+}
+.cont-oth {
+  margin-top: 20px;
+}
+/*********** end idea desciption **************/
+/***************start spread the idea ****************/
+.idea-publicity-wanted-spread-the-idea-container {
+  padding-left: 10px;
+  padding-bottom: 10px;
+  background: ;
+  margin-top: 20px;
+  box-shadow: 1px 1px 1px #D8D8D8 inset;
+}
+.spread-the-idea1 {
+  background: ;
+  padding: 10px;
+}
+.spread-the-idea1-right {
+  background: ;
+  padding: 0px;
+  margin: 0px;
+}
+.spread-the-idea1-left {
+  background: ;
+  padding: 0px;
+  margin: 0px;
+}
+.idea-publicity-wanted-spread-the-idea-container1 {
+  padding-left: 10px;
+  padding-bottom: 10px;
+  background: lightgray;
+  margin-top: 20px;
+  box-shadow: 1px 1px 1px #D8D8D8 inset;
+}
+.gly-thu-sp,
+.gly-hear-sp {
+  zoom: 4;
+  -moz-transform: scale(2);
+  color: white;
+  /* Firefox */
+}
+.par-spr {
+  padding-top: 20px;
+}
+/***************end spread the idea ****************/
+/***************start team-information ****************/
+.idea-publicity-wanted-team-information {
+  box-shadow: 1px 1px 1px #D8D8D8 inset;
+}
+.team-inf {
+  display: table;
+  margin: 0px auto;
+  padding-top: 10px;
+}
+/***************end team-information ****************/
+/***************start competance-wanted ****************/
+.idea-wants-team-team-information {
+  display: table;
+  padding-top: 10px;
+}
+/***************end competance-wanted ****************/
+/***************start competance-wanted1 ****************/
+.comp-1 {
+  margin: 20px;
+  padding-left: 10px;
+  font-size: 14px;
+}
+.gly-gl,
+.gly-usr,
+.gly-fl {
+  zoom: 1.2;
+}
+/***************end competance-wanted1 ****************/
+/***************start comment ****************/
+.comment-idea-description {
+  padding: 20px;
+  width: 100%;
+  height: 300px;
+}
+.idea-publicity-wanted-comment-container {
+  padding-left: 20px;
+  margin-top: 20px;
+  padding-bottom: 30px;
+  height: 300px;
+  box-shadow: 1px 1px 1px #D8D8D8 inset;
+}
+.comm-pub {
+  height: 100%;
+}
+/***************end of  comment ****************/
+/*********** start footer *******/
+.body-footer {
+  background: black;
+  box-shadow: -2px 1px 1px #808080;
+}
+footer ul.breadcrumb {
+  background: black;
+  margin: 0 auto;
+  -webkit-border-radius: 0;
+  -moz-border-radius: 0;
+  border-radius: 0;
+}
+footer ul.breadcrumb li {
+  text-shadow: none;
+}
+footer ul.breadcrumb li a {
+  color: white;
+}
+/*************  end footer ************/
+/***********start title of idea *******************/
+/***********end title of idea *******************/
+.vertical .carousel-inner {
+  height: 100%;
+}
+.carousel.vertical .item {
+  -webkit-transition: 0.6s ease-in-out top;
+  -moz-transition: 0.6s ease-in-out top;
+  -ms-transition: 0.6s ease-in-out top;
+  -o-transition: 0.6s ease-in-out top;
+  transition: 0.6s ease-in-out top;
+}
+.carousel.vertical .active {
+  top: 0;
+}
+.carousel.vertical .next {
+  top: 100%;
+}
+.carousel.vertical .prev {
+  top: -100%;
+}
+.carousel.vertical .next.left,
+.carousel.vertical .prev.right {
+  top: 0;
+}
+.carousel.vertical .active.left {
+  top: -100%;
+}
+.carousel.vertical .active.right {
+  top: 100%;
+}
+.carousel.vertical .item {
+  left: 0;
+}
