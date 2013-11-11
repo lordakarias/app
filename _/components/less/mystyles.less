@@ -1,9 +1,3 @@
-.home-index {background:white;}
-.home-idex-logged-in{background:white;}
-.index {margin-left:220px;margin-right:200px;background: url(../../images/bkgrn.png) repeat scroll left right top bottom transparent;
-  @media(max-width: 767px) {-webkit-border-radius: 20px 0 0 0;-moz-border-radius: 20px 0 0 0; border-radius: 20px 0 0 0;}}
-
-
 
 /************* start header************/
 .nav > li > a:hover,
@@ -11,6 +5,14 @@
 .body-header {background: black;box-shadow:-2px 1px 1px gray;}
 .header-container{background:black; display:table; margin:0px auto;}
 /***************** end header *************/
+
+
+
+
+
+
+.index {margin-left:120px;margin-right:140px; }
+
 
 /*********** start footer *******/
 .body-footer {background: black;box-shadow:-2px 1px 1px gray;}
@@ -21,8 +23,12 @@ footer {
 /*************  end footer ************/
 
 
+.container {
+  width:1000px;
+}
+
 /****start intro***/
-.body-intro{background:#E5E4E2;  background-image: -webkit-gradient(linear, 0% top, 100% top, from(rgba(0, 0, 0, 0.0001)), to(rgba(0, 0, 0, 0.5)));}
+.body-intro{background:#E5E4E2;  box-shadow:1px 1px 1px #D8D8D8 inset;background-image: -webkit-gradient(linear, 0% top, 100% top, from(rgba(0, 0, 0, 0.0001)), to(rgba(0, 0, 0, 0.5)));}
 .intro-video{width:700px;}                        /*video intro size 700px*/
 .intro-search {margin-top:10px;width:700px;margin-bottom:10px;}
 .intro-para{margin-left:180px;padding-top:10px; color:orange;}
@@ -30,22 +36,24 @@ footer {
 iframe {width:700px; height:300px;}
 .button-width{width:48%;}
 .button-intro{margin-top:15px;margin-bottom:10px;}
-.intro-idea-container{background:; margin-bottom:10px;}
+.intro-idea-container{}
 .intro{display:table; margin: 0px auto;}
-/********** end intro *****f***** /
+/********** end intro ********** /
 
 
 
 /************start popular idea*******/
 .body-popular-idea {background:white;box-shadow:1px 1px 1px #D8D8D8 inset;}
-.tab-content{margin-top:20px;}
-.popular-idea-container{margin-top:20px;background: white;margin-bottom:10px;}
-.popular-par {display:table; margin: 0px auto;} 
+.tab-content{margin-top:15px;}
+//.popular-idea-container{background: white;margin-bottom:10px;}
+.popular-par {display:table; margin: 0px auto;padding-top:20px;} 
 /************end popular idea*******/
+
+
 
 /************start idea area*******/
 .body-idea-area{background:#E5E4E2;box-shadow:1px 1px 1px #D8D8D8 inset;}
-.idea-area-container{margin-top:20px; background: #E5E4E2;margin-bottom:10px; }
+//.idea-area-container{padding-top:20px; background: #E5E4E2; }
 .idea-area-para {display:table; margin: 0px auto;padding-top:20px;}  
 .area-nav{margin-top:10px;}
 /************end popular idea*******/
@@ -55,8 +63,8 @@ iframe {width:700px; height:300px;}
 /************find teams*******/
 .body-teams{background: white;box-shadow:1px 1px 1px #D8D8D8 inset;}
 .find-teams-container{}
-.teams-container{background: white;margin-top:10px; margin-bottom:10px;}
-.teams-para{display:table; margin:0px auto;}
+//.teams-container{background: white;}
+.teams-para{display:table; margin:0px auto;padding-top:20px;}
 .teams-cont{margin-top:20px;}
 .glyphicon-camera {zoom: 6;text-align: center; -moz-transform: scale(2);  /* Firefox */}
 .find-team-icon {text-align:center;margin: 0px auto; display:table}
@@ -96,10 +104,6 @@ iframe {width:700px; height:300px;}
 
 
 
-/**********start media************/
-@media (min-width: 768px){ .row {margin-right: 0;margin-left: 0;} }
-@media(max-width: 767px) {iframe{width:400px; height:200px;}.idea-profile-publicity-container{margin:0px;}  .navbar{padding-left:10px;}}
-/**********end media************/
 
 
 
@@ -114,24 +118,8 @@ iframe {width:700px; height:300px;}
 
 /***************** start no name *************************/
 .more{margin-right:30px;}
-hr {
-  -moz-border-bottom-colors: none;
-  -moz-border-image: none;
-  -moz-border-left-colors: none;
-  -moz-border-right-colors: none;
-  -moz-border-top-colors: none;
-  border-color: #EEEEEE -moz-use-text-color #FFFFFF;
-  border-style: solid none;
-  border-width: 1px 0;
-  margin: 2px 0;
-}
 
-#register-siginin > button {box-shadow: -10px -10px 10px -10px;  }
-.tab-content {
-  h3, h4 {margin: 0;padding: 0;}
-  h3 {color: gray;line-height: 1em}
-  p {padding: 0;padding-top: 10px;}
-  }
+
 .thumbnail {
   border-radius: 4px;
   padding: 0px; 
@@ -142,7 +130,6 @@ hr {
 .img1e{margin: 0px;padding:0px;display: table;  border-top-left-radius:4px;border-top-right-radius:4px;
 
 }
-.thumbnail:hover {box-shadow:  0 0 2px 2px #E6E0F8;}
 b{color:black;}
 .glyphicon-user,.glyphicon-thumbs-up,.glyphicon-globe{color: gray;}
 .glyphicon-user,.glyphicon-thumbs-up,.glyphicon-globe {
@@ -164,44 +151,16 @@ b{color:black;}
       courser:default;
 }
 
+
+.thumbnail:hover {box-shadow:  0 0 2px 2px #E6E0F8;}
+
 /***************** end no name *************************/
-
-
-/***********figure**********
-a, figure {
-    display: inline-block;
-}
-figcaption {
-    margin: 10px 0 0 0;
-    font-variant: small-caps;
-    font-family: Arial;
-    font-weight: bold;
-    color: #bb3333;
-}
-figure {
-    padding: 5px;
-}
-img:hover {
-    transform: scale(1.1);
-    -ms-transform: scale(1.1);
-    -webkit-transform: scale(1.1);
-    -moz-transform: scale(1.1);
-    -o-transform: scale(1.1);
-}
-img {
-    transition: transform 0.2s;
-    -webkit-transition: -webkit-transform 0.2s;
-    -moz-transition: -moz-transform 0.2s;
-    -o-transition: -o-transform 0.2s;
-}
-***********figure end*************/
-
 
 
 /********************start carousel - manipulation*******************************/
 .carousel-control:hover,
 .carousel-control:focus {
-  color: green;
+  color: red;
   text-decoration: none;
   opacity:0.5;
   filter: alpha(opacity=90);
@@ -216,7 +175,7 @@ position: absolute;
   opacity: 0.2;
   filter: alpha(opacity=50);
   font-size: 20px;
-  color:green;
+  color:red;
   text-shadow: 0 1px 2px rgba(0, 0, 0, 0.6);
 }
 .carousel-control.left {
@@ -266,13 +225,12 @@ left: -70px;  right: auto;
 
 /********************carousel - manipulation*******************************/
 
-
 /*******************start nav tabs ****************************************/
 
 .nav-tabs {
   border-bottom: 0px solid #dddddd;
   margin-bottom:20px;
-  margin-left:0px;
+  margin-left:0px;padding-left:0px;
   margin-top:20px;
 }
 .nav-tabs > li {
