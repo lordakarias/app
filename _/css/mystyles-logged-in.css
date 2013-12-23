@@ -1,19 +1,4 @@
-/************* start header************/
-.nav > li > a:hover,
-.nav > li > a:focus {
-  text-decoration: none;
-  background-color: black;
-}
-.body-header {
-  background: black;
-  box-shadow: -2px 1px 1px #808080;
-}
-.header-container {
-  background: black;
-  display: table;
-  margin: 0px auto;
-}
-/***************** end header *************/
+/********************** NO name **********************************/
 .index {
   margin-left: 220px;
   margin-right: 200px;
@@ -26,25 +11,6 @@
     border-radius: 20px 0 0 0;
   }
 }
-/*********** start footer *******/
-.body-footer {
-  background: black;
-  box-shadow: -2px 1px 1px #808080;
-}
-footer ul.breadcrumb {
-  background: black;
-  margin: 0 auto;
-  -webkit-border-radius: 0;
-  -moz-border-radius: 0;
-  border-radius: 0;
-}
-footer ul.breadcrumb li {
-  text-shadow: none;
-}
-footer ul.breadcrumb li a {
-  color: white;
-}
-/*************  end footer ************/
 .button-width {
   width: 50%;
   border-radius: 0px;
@@ -73,20 +39,11 @@ footer ul.breadcrumb li a {
   margin: 0px auto;
   padding-bottom: 20px;
 }
-/************start popular idea*******/
-.body-popular-idea {
-  background: white;
-  box-shadow: 1px 1px 1px #D8D8D8 inset;
+.thumbnail:hover {
+  box-shadow: 0 0 2px 2px #E6E0F8;
 }
-.tab-content {
-  margin-top: 20px;
-}
-.popular-idea-container {
-  margin-top: 20px;
-  background: white;
-  margin-bottom: 10px;
-}
-/************end popular idea*******/
+/********************** end no name *****************************/
+/************start welcome ************************************/
 .body-welcom-user {
   background: white;
 }
@@ -102,10 +59,30 @@ footer ul.breadcrumb li a {
   background: #E5E4E2;
   box-shadow: 1px 1px 1px #D8D8D8 inset;
 }
-.thumbnail:hover {
-  box-shadow: 0 0 2px 2px #E6E0F8;
+/************end welcome **************************************/
+/*********** start related area  *******************************/
+/*********** end related area  *******************************/
+/*********** start challenges ***********************************/
+/*********** end challenges ************************************/
+/*********** start category ************************************/
+/*********** end category *************************************/
+/*********** start recommended-challenges ********************/
+/*********** end recommended-challenges *********************/
+/************start popular idea*****************************/
+.body-popular-idea {
+  background: white;
+  box-shadow: 1px 1px 1px #D8D8D8 inset;
 }
-/********************start carousel - manipulation*******************************/
+.tab-content {
+  margin-top: 20px;
+}
+.popular-idea-container {
+  margin-top: 20px;
+  background: white;
+  margin-bottom: 10px;
+}
+/************end popular idea******************************/
+/********************start carousel - manipulation********/
 .carousel-control:hover,
 .carousel-control:focus {
   color: red;
@@ -165,8 +142,8 @@ footer ul.breadcrumb li a {
 .carousel-caption .btn {
   text-shadow: none;
 }
-/********************carousel - manipulation*******************************/
-/*******************start nav tabs ****************************************/
+/********************carousel - manipulation*************/
+/*******************start nav tabs *********************/
 .nav-tabs {
   border-bottom: 0px solid #dddddd;
   margin-bottom: 20px;
@@ -230,4 +207,4 @@ footer ul.breadcrumb li a {
 .nav-tabs.nav-justified > .active > a {
   border-bottom-color: #ffffff;
 }
-/*******************end  nav tabs ****************************************/
+/*******************end  nav tabs *********************/

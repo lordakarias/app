@@ -8,7 +8,7 @@
 			  <div class="item active">
 			  	<div class="row">
 					 <div class="col-lg-3">
-					    <div class="thumbnail">
+					    <div class="thumbnail home-idea-area-thumbnail">
 					    <img src="images/gates2.jpg" alt="My Image">
 					      <div class="caption">
 					        <h4>Idea title</h4>
@@ -28,7 +28,7 @@
 					  </div>
 
 					   <div class="col-lg-3">
-					    <div class="thumbnail">
+					    <div class="thumbnail home-idea-area-thumbnail">
 					    <img src="images/gates2.jpg" alt="My Image">
 					      <div class="caption">
 					        <h4>Idea title</h4>
@@ -48,7 +48,7 @@
 					  </div>
 
 					 <div class="col-lg-3">
-					    <div class="thumbnail">
+					    <div class="thumbnail home-idea-area-thumbnail">
 					    <img src="images/gates2.jpg" alt="My Image">
 					      <div class="caption">
 					        <h4>Idea title</h4>
@@ -68,7 +68,7 @@
 					  </div>
 
 					 <div class="col-lg-3">
-					    <div class="thumbnail">
+					    <div class="thumbnail home-idea-area-thumbnail">
 					    <img src="images/gates2.jpg" alt="My Image">
 					      <div class="caption">
 					        <h4>Idea title</h4>
@@ -93,7 +93,7 @@
 				<div class="row">
 					<!-- ITEM-->
 				 	 <div class="col-lg-3">
-					    <div class="thumbnail">
+					    <div class="thumbnail home-idea-area-thumbnail">
 					    <img src="images/gates2.jpg" alt="My Image">
 					      <div class="caption">
 					        <h4>Idea title</h4>
@@ -113,7 +113,7 @@
 					  </div>
 
 					   <div class="col-lg-3">
-					    <div class="thumbnail">
+					    <div class="thumbnail home-idea-area-thumbnail">
 					    <img src="images/gates2.jpg" alt="My Image">
 					      <div class="caption">
 					        <h4>Idea title</h4>
@@ -133,7 +133,7 @@
 					  </div>
 
 					 <div class="col-lg-3">
-					    <div class="thumbnail">
+					    <div class="thumbnail home-idea-area-thumbnail">
 					    <img src="images/gates2.jpg" alt="My Image">
 					      <div class="caption">
 					        <h4>Idea title</h4>
@@ -153,7 +153,7 @@
 					  </div>
 
 					 <div class="col-lg-3">
-					    <div class="thumbnail">
+					    <div class="thumbnail home-idea-area-thumbnail">
 					    <img src="images/gates2.jpg" alt="My Image">
 					      <div class="caption">
 					        <h4>Idea title</h4>

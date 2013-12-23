@@ -9,7 +9,7 @@
 		    </button>
 		    <a class="navbar-brand" href="#">IDEA</a>
 			<ul class="nav navbar-nav">
-				<li><a href="index.php">Home</a></li>
+				<li><a href="index.php">Temp-Nav</a></li>
 				<li><a href="search.php">Browse ideas</a></li>
 				<!--<li><a href="about.php">About</a></li>-->
 				<li class="dropdown">

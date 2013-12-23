@@ -1,213 +1,10 @@
-/************* start header************/
-.nav > li > a:hover,
-.nav > li > a:focus {
-  text-decoration: none;
-  background-color: black;
-}
-.body-header {
-  background: black;
-  box-shadow: -2px 1px 1px #808080;
-}
-.header-container {
-  background: black;
-  display: table;
-  margin: 0px auto;
-}
-/***************** end header *************/
+/***************** start no name ************************/
 .index {
   margin-left: 120px;
   margin-right: 140px;
 }
-/*********** start footer *******/
-.body-footer {
-  background: black;
-  box-shadow: -2px 1px 1px #808080;
-}
-footer ul.breadcrumb {
-  background: black;
-  margin: 0 auto;
-  -webkit-border-radius: 0;
-  -moz-border-radius: 0;
-  border-radius: 0;
-}
-footer ul.breadcrumb li {
-  text-shadow: none;
-}
-footer ul.breadcrumb li a {
-  color: white;
-}
-/*************  end footer ************/
 .container {
   width: 1000px;
-}
-/****start intro***/
-.body-intro {
-  background: #E5E4E2;
-  box-shadow: 1px 1px 1px #D8D8D8 inset;
-  background-image: -webkit-gradient(linear, 0% top, 100% top, from(rgba(0, 0, 0, 0.0001)), to(rgba(0, 0, 0, 0.5)));
-}
-.intro-video {
-  width: 700px;
-}
-/*video intro size 700px*/
-.intro-search {
-  margin-top: 10px;
-  width: 700px;
-  margin-bottom: 10px;
-}
-.intro-para {
-  margin-left: 180px;
-  padding-top: 10px;
-  color: orange;
-}
-.intro-para-domain {
-  color: lightblue;
-}
-iframe {
-  width: 700px;
-  height: 300px;
-}
-.button-width {
-  width: 48%;
-}
-.button-intro {
-  margin-top: 15px;
-  margin-bottom: 10px;
-}
-.intro {
-  display: table;
-  margin: 0px auto;
-}
-/********** end intro ********** /
-
-
-
-/************start popular idea*******/
-.body-popular-idea {
-  background: white;
-  box-shadow: 1px 1px 1px #D8D8D8 inset;
-}
-.tab-content {
-  margin-top: 15px;
-}
-.popular-par {
-  display: table;
-  margin: 0px auto;
-  padding-top: 20px;
-}
-/************end popular idea*******/
-/************start idea area*******/
-.body-idea-area {
-  background: #E5E4E2;
-  box-shadow: 1px 1px 1px #D8D8D8 inset;
-}
-.idea-area-para {
-  display: table;
-  margin: 0px auto;
-  padding-top: 20px;
-}
-.area-nav {
-  margin-top: 10px;
-}
-/************end popular idea*******/
-/************find teams*******/
-.body-teams {
-  background: white;
-  box-shadow: 1px 1px 1px #D8D8D8 inset;
-}
-.teams-para {
-  display: table;
-  margin: 0px auto;
-  padding-top: 20px;
-}
-.teams-cont {
-  margin-top: 20px;
-}
-.glyphicon-camera {
-  zoom: 6;
-  text-align: center;
-  -moz-transform: scale(2);
-  /* Firefox */
-}
-.find-team-icon {
-  text-align: center;
-  margin: 0px auto;
-  display: table;
-}
-.find-team-col:hover {
-  background: lightgray;
-}
-/************find teams*******/
-/************start idea recommendation*******/
-/************start idea recommendation*******/
-/************start categordy logged in*******/
-.body-category-logged-in {
-  background: white;
-  box-shadow: 1px 1px 1px #D8D8D8 inset;
-}
-/************end categordy logged in*******/
-/************start boddy challenges logged in*******/
-.body-challenges-logged-in {
-  background: #E5E4E2;
-  box-shadow: 1px 1px 1px #D8D8D8 inset;
-}
-/************end challenges logged in*******/
-/************start popular-challenges*******/
-.body-popular-challenges {
-  background: #E5E4E2;
-  box-shadow: 1px 1px 1px #D8D8D8 inset;
-}
-.popular-challenges-container {
-  margin-top: 20px;
-}
-.body-recommended-logged-in {
-  background: #E5E4E2;
-  box-shadow: 1px 1px 1px #D8D8D8 inset;
-}
-.popular-challenges {
-  background: #E5E4E2;
-}
-.popular-challenges-para {
-  margin-left: 300px;
-}
-/************end popular-challenges*******/
-/*************start idea name**************/
-.body-idea-name {
-  box-shadow: 1px 1px 1px #D8D8D8 inset;
-}
-.idea-name-para {
-  margin: 0px auto;
-  display: inline-block;
-}
-.carousel-caption-title {
-  position: absolute;
-  left: 15%;
-  right: 15%;
-  top: 5px;
-  z-index: 80;
-  padding-top: 10px;
-  padding-bottom: 20px;
-  color: #ffffff;
-  text-align: center;
-  text-shadow: 0 1px 2px rgba(0, 0, 0, 0.6);
-}
-.img-idea-name {
-  width: 100%;
-  height: 300px;
-  background-position: center;
-  background-size: cover;
-}
-.carousel-caption-more {
-  position: absolute;
-  bottom: 5px;
-  right: 10px;
-  padding-top: 10px;
-  padding-bottom: 20px;
-}
-/*************end idea name**************/
-/***************** start no name *************************/
-.more {
-  margin-right: 30px;
 }
 .thumbnail {
   border-radius: 4px;
@@ -220,14 +17,14 @@ iframe {
   padding: 0px;
   display: table;
 }
-.img1e {
+.image-inside-thumb {
   margin: 0px;
   padding: 0px;
   display: table;
   border-top-left-radius: 4px;
   border-top-right-radius: 4px;
 }
-b {
+.thumb-title-bold {
   color: black;
 }
 .glyphicon-user,
@@ -247,7 +44,7 @@ b {
   margin: 0px;
   padding: 0px;
 }
-.colr {
+.glyp-modified {
   margin: 0px;
   padding: 0px;
   font-size: 12px;
@@ -265,8 +62,8 @@ b {
 .thumbnail:hover {
   box-shadow: 0 0 2px 2px #E6E0F8;
 }
-/***************** end no name *************************/
-/********************start carousel - manipulation*******************************/
+/***************** end no name   ***********************/
+/******** start carousel - manipulation********/
 .carousel-control:hover,
 .carousel-control:focus {
   color: red;
@@ -326,8 +123,8 @@ b {
 .carousel-caption .btn {
   text-shadow: none;
 }
-/********************carousel - manipulation*******************************/
-/*******************start nav tabs ****************************************/
+/******** end carousel - manipulation*********/
+/****** start nav tabs **********************/
 .nav-tabs {
   border-bottom: 0px solid #dddddd;
   margin-bottom: 20px;
@@ -391,4 +188,4 @@ b {
 .nav-tabs.nav-justified > .active > a {
   border-bottom-color: #ffffff;
 }
-/*******************end  nav tabs ****************************************/
+/****** end  nav tabs **********************/

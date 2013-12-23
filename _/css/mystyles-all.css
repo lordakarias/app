@@ -1,0 +1,1089 @@
+/*---------------------- START COMMON STYLES --------------------------------*/
+/***************** start header ************************/
+.nav > li > a:hover,
+.nav > li > a:focus {
+  text-decoration: none;
+  background-color: black;
+}
+.body-header {
+  background: black;
+  box-shadow: -2px 1px 1px #808080;
+}
+.header-container {
+  background: black;
+  display: table;
+  margin: 0px auto;
+}
+/***************** end header *************************/
+/***************** start popular idea ****************/
+.body-popular-idea {
+  background: white;
+  box-shadow: 1px 1px 1px #D8D8D8 inset;
+  padding-bottom: 20px;
+}
+.popular-par {
+  display: table;
+  margin: 0px auto;
+  padding-top: 20px;
+}
+.tab-content {
+  margin-top: 15px;
+}
+.popular-more-para {
+  padding-right: 5px;
+  padding-top: 5px;
+}
+/***************** end popular idea *****************/
+/***************** start no name ************************/
+.container {
+  width: 940px;
+}
+.home-idea-area-thumbnail {
+  margin: 0px;
+  padding: 0px;
+}
+.caption {
+  margin: 0px;
+  padding: 0px;
+  display: table;
+}
+.image-inside-thumb {
+  margin: 0px;
+  padding: 0px;
+  display: table;
+  border-top-left-radius: 4px;
+  border-top-right-radius: 4px;
+}
+.thumb-title-bold {
+  color: black;
+}
+.glyphicon-user,
+.glyphicon-thumbs-up,
+.glyphicon-globe {
+  color: gray;
+}
+.glyphicon-user,
+.glyphicon-thumbs-up,
+.glyphicon-globe {
+  zoom: 0.9;
+  -moz-transform: scale(2);
+  /* Firefox */
+
+}
+.icod {
+  margin: 0px;
+  padding: 0px;
+}
+.glyp-modified {
+  margin: 0px;
+  padding: 0px;
+  font-size: 12px;
+}
+.team-caption {
+  padding-left: 5px;
+  color: gray;
+  padding-bottom: 0px;
+  margin-bottom: 0px;
+}
+.team-caption:hover {
+  color: black;
+  courser: default;
+}
+.home-idea-area-thumbnail:hover {
+  box-shadow: 0 0 2px 2px #E6E0F8;
+}
+/***************** end no name   ***********************/
+/***************** start carousel - manipulation********/
+.carousel-control:hover,
+.carousel-control:focus {
+  color: red;
+  text-decoration: none;
+  opacity: 0.5;
+  filter: alpha(opacity=90);
+}
+.carousel-control {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  width: 2%;
+  opacity: 0.2;
+  filter: alpha(opacity=50);
+  font-size: 20px;
+  color: red;
+  text-shadow: 0 1px 2px rgba(0, 0, 0, 0.6);
+}
+.carousel-control.left {
+  background-image: none;
+  background-repeat: repeat-x;
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#80000000', endColorstr='#00000000', GradientType=1);
+  left: -70px;
+  right: auto;
+}
+.carousel-control.right {
+  background-image: none;
+  background-repeat: repeat-x;
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#00000000', endColorstr='#80000000', GradientType=1);
+  right: -40px;
+  left: auto;
+}
+.carousel-control-idea-area-left {
+  right: auto;
+  left: 120px;
+}
+.carousel-control-idea-area-right {
+  right: 120px;
+  left: auto;
+}
+.carousel-caption {
+  position: absolute;
+  color: white;
+  filter: alpha(opacity=50);
+  opacity: 1px;
+  text-align: center;
+  text-shadow: 0 1px 2px rgba(0, 0, 0, 0.6);
+  background-image: -webkit-gradient(linear, 0% top, 100% top, from(rgba(0, 0, 0, 0.0001)), to(rgba(0, 0, 0, 0.5)));
+  background-image: -webkit-linear-gradient(left, color-stop(rgba(0, 0, 0, 0.0001) 0%), color-stop(rgba(0, 0, 0, 0.5) 100%));
+  background-image: -moz-linear-gradient(left, rgba(0, 0, 0, 0.0001) 0%, rgba(0, 0, 0, 0.5) 100%);
+  background-image: linear-gradient(to right, rgba(0, 0, 0, 0.0001) 0%, rgba(0, 0, 0, 0.5) 100%);
+  background-repeat: repeat-x;
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#00000000', endColorstr='#80000000', GradientType=1);
+}
+.carousel-caption .btn {
+  text-shadow: none;
+}
+/***************** end carousel - manipulation*********/
+/***************** start nav tabs **********************/
+.nav-tabs {
+  border-bottom: 0px solid #dddddd;
+  margin-bottom: 20px;
+  margin-left: 0px;
+  padding-left: 0px;
+  margin-top: 20px;
+}
+.nav-tabs > li {
+  float: left;
+  margin-bottom: 0px;
+  margin-right: 60px;
+  text-decoration: none;
+  list-style-type: none;
+}
+.nav-tabs > li > a {
+  margin-right: 0px;
+  line-height: 1.428571429;
+  border: 0px solid transparent;
+  border-radius: 0px 0px 0 0;
+}
+.nav-tabs > li > a:hover {
+  border-color: #eeeeee #eeeeee #dddddd;
+}
+.nav-tabs > li.active > a,
+.nav-tabs > li.active > a:hover,
+.nav-tabs > li.active > a:focus {
+  color: blue;
+  background: white;
+  border: 0px solid #dddddd;
+  border-bottom: 0px solid blue;
+  cursor: default;
+}
+.nav-tabs-idea-area > li.active > a,
+.nav-tabs-idea-area > li.active > a:hover,
+.nav-tabs-idea-area > li.active > a:focus {
+  background: #E5E4E2;
+  border: 0px solid #dddddd;
+  border-bottom: 0px solid blue;
+  cursor: default;
+}
+.nav-tabs.nav-justified {
+  width: 100%;
+  border-bottom: 0;
+}
+.nav-tabs.nav-justified > li {
+  float: none;
+}
+.nav-tabs.nav-justified > li > a {
+  text-align: center;
+}
+@media (min-width: 768px) {
+  .nav-tabs.nav-justified > li {
+    display: table-cell;
+    width: 1%;
+  }
+}
+.nav-tabs.nav-justified > li > a {
+  border-bottom: 1px solid #dddddd;
+  margin-right: 0;
+}
+.nav-tabs.nav-justified > .active > a {
+  border-bottom-color: #ffffff;
+}
+/***************** end  nav tabs **********************/
+/***************** start footer ****************/
+.body-footer {
+  background: black;
+  box-shadow: -2px 1px 1px #808080;
+}
+footer ul.breadcrumb {
+  background: black;
+  margin: 0 auto;
+  display: table;
+  -webkit-border-radius: 0;
+  -moz-border-radius: 0;
+  border-radius: 0;
+}
+footer ul.breadcrumb li {
+  text-shadow: none;
+}
+footer ul.breadcrumb li a {
+  color: white;
+}
+.footer-container {
+  background: black;
+  display: table;
+  margin: 0px auto;
+}
+/*****************  end footer ****************/
+/*---------------------- END COMMON STYLES --------------------------------*/
+/*----------------------START SPECIFIC STYLES --------------------------------*/
+/******************* 1. START HOME STYLES ********************/
+/***************** start intro ************************/
+.home-body-intro {
+  background: #D8D8D8;
+  box-shadow: 1px 1px 1px #D8D8D8 inset;
+  background-image: -webkit-gradient(linear, 0% top, 100% top, from(rgba(0, 0, 0, 0.0001)), to(rgba(0, 0, 0, 0.5)));
+  padding-bottom: 20px;
+}
+.home-intro {
+  display: table;
+  margin: 0px auto;
+}
+.home-intro-video {
+  width: 700px;
+}
+.home-intro-para {
+  display: table;
+  margin: 0px auto;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+.home-intro-para-domain {
+  color: lightblue;
+}
+iframe {
+  width: 700px;
+  height: 300px;
+}
+.home-button-intro {
+  margin-top: 15px;
+  margin-bottom: 10px;
+}
+.home-button-width {
+  width: 48%;
+}
+.home-intro-search {
+  margin-top: 10px;
+  width: 700px;
+  margin-bottom: 10px;
+}
+/***************** end intro *************************/
+/***************** start idea area ******************/
+.home-body-idea-area {
+  background: #E5E4E2;
+  box-shadow: 1px 1px 1px #D8D8D8 inset;
+  padding-bottom: 20px;
+}
+.home-idea-area-container {
+  background: #E5E4E2;
+}
+.home-idea-area-para {
+  display: table;
+  margin: 0px auto;
+  padding-top: 20px;
+}
+.home-idea-area-more-para {
+  padding-top: 5px;
+  padding-right: 5px;
+}
+/***************** end popular idea ****************/
+/***************** find teams **********************/
+.home-body-find-teams {
+  background: white;
+  box-shadow: 1px 1px 1px #D8D8D8 inset;
+  padding-bottom: 20px;
+}
+.home-teams-para {
+  display: table;
+  margin: 0px auto;
+  padding-top: 20px;
+}
+.home-teams-cont {
+  margin-top: 20px;
+}
+.home-glyp-cam {
+  zoom: 6;
+  text-align: center;
+  -moz-transform: scale(2);
+  /* Firefox */
+}
+.home-find-team-icon {
+  text-align: center;
+  margin: 0px auto;
+  display: table;
+}
+.home-find-team-col:hover {
+  background: lightgray;
+}
+.home-find-teams-more-para {
+  padding-right: 40px;
+}
+/***************** find teams *********************/
+/***************** start idea name ****************/
+.home-body-idea-name {
+  box-shadow: 1px 1px 1px #D8D8D8 inset;
+}
+.home-idea-name-para {
+  margin: 0px auto;
+  display: inline-block;
+}
+.home-idea-name-carousel-caption-title {
+  position: absolute;
+  left: 15%;
+  right: 15%;
+  top: 5px;
+  z-index: 80;
+  padding-top: 10px;
+  padding-bottom: 20px;
+  color: #ffffff;
+  text-align: center;
+  text-shadow: 0 1px 2px rgba(0, 0, 0, 0.6);
+}
+.home-idea-name-img {
+  width: 100%;
+  height: 300px;
+  background-position: center;
+  background-size: cover;
+}
+.home-idea-name-carousel-caption-more-para {
+  position: absolute;
+  bottom: 5px;
+  right: 10px;
+  padding-top: 10px;
+  padding-bottom: 20px;
+}
+/***************** end idea name *****************/
+/******************* END HOME STYLES ********************/
+/******************* 2. START IDEA-PROFILE Container for both ideas ********************/
+/*****************Start idea profile publcity wanted ************/
+.idea-profile-wants-team-container {
+  background: #ffffff none repeat scroll 0% 0% auto padding-box border-box;
+  border: 1px solid #d0d5cb;
+  border-radius: 5px 5px 5px 5px;
+  box-shadow: 0px 0px 0px 4px rgba(208, 213, 203, 0.298039);
+  color: #121a0d;
+  font: normal normal normal 16px/24px 'Helvetica Neue', Helvetica, Arial, 'Liberation Sans', FreeSans, sans-serif;
+  margin: 0px 178.5px;
+  margin-top: 20px;
+  outline: #121a0d none 0px;
+  margin-bottom: 30px;
+  padding-bottom: 30px;
+}
+/*****************end idea profile publcity wanted ************//******************* END IDEA-PROFILE Container for both ideas *******************/
+/******************* 3. START IDEA-PROFILE-WANTS-TEAM-MEMBERS *******************************/
+/*********** start idea title ***************************/
+.body-idea-profile-wants-team-members-title {
+  background: white;
+}
+.jumbotron {
+  background: yellow;
+  margin: 10px;
+}
+.idea-profile-wants-team-members-title {
+  display: table;
+  margin: 0px auto;
+  padding-bottom: 10px;
+  padding-top: 20px;
+}
+.idea-profile-wants-team-members-container {
+  background: white;
+}
+.well {
+  padding: 0px;
+  border-bottom: 0px solid white;
+}
+.image-title {
+  zoom: 0.9;
+  width: 100%;
+}
+.idea-profile-wants-team-members-why-what {
+  display: table;
+  margin: 0px auto;
+  background: white;
+  padding-top: 10px;
+}
+.idea-profile-wants-team-members-what-why-date-view {
+  display: table;
+  margin: 0px auto;
+  background: white;
+}
+/*********** end idea title   **************************/
+/*********** start idea description ***************************/
+.body-idea-profile-wants-team-members-description {
+  padding-left: 20px;
+  padding-right: 20px;
+}
+.idea-profile-wants-team-members-description-left {
+  border-radius: 1px solid lightblue;
+}
+.idea-profile-wants-team-members-description-right-glyphicon {
+  padding: 0px;
+  margin: 0px;
+}
+.idea-profile-wants-team-members-description-right-img-left {
+  width: 100%;
+  height: 65px;
+  padding: 0px;
+  margin: 0px;
+}
+.idea-profile-wants-team-members-description-right-left {
+  width: 100%;
+  background: red;
+  padding: 0px;
+  margin: 0px;
+}
+.idea-profile-wants-team-members-description-right-right {
+  width: 100%;
+  background: white;
+  padding: 0px;
+  margin: 0px;
+}
+.idea-profile-wants-team-members-description-right-left-container {
+  padding-right: 0px;
+  padding-left: 0px;
+  padding-bottom: ;
+}
+.idea-profile-wants-team-members-description-right-right-container {
+  padding: 0px;
+  padding-left: 5px;
+}
+.idea-profile-wants-team-members-gly-us,
+.idea-profile-wants-team-members-gly-thu,
+.idea-profile-wants-team-members-gly-glo {
+  zoom: 0.8;
+  -moz-transform: scale(2);
+  /* Firefox */
+
+  color: gray;
+}
+.idea-profile-wants-team-members-gly-size {
+  padding: 0px;
+  font-size: 12px;
+}
+.idea-profile-wants-team-members-h6,
+.idea-profile-wants-team-members-h4,
+.idea-profile-wants-team-members-h5 {
+  padding: 0px;
+  margin: 0px;
+}
+.idea-profile-wants-team-members-description-right-individ-container {
+  margin-top: 20px;
+}
+/*********** end idea desciption    *************************/
+/*********** start spread the idea  ***********************/
+.idea-profile-wants-team-members-spread1 {
+  background: ;
+  padding: 10px;
+}
+.idea-profile-wants-team-members-spread1-right {
+  background: ;
+  padding: 0px;
+  margin: 0px;
+}
+.idea-profile-wants-team-members-spread1-left {
+  background: ;
+  padding: 0px;
+  margin: 0px;
+}
+.body-idea-profile-wants-team-members-spread {
+  padding-left: 10px;
+  padding-bottom: 10px;
+  background: lightgray;
+  margin-top: 20px;
+  box-shadow: 1px 1px 1px #D8D8D8 inset;
+}
+.idea-profile-wants-team-members-spread-gly-thu-sp,
+.idea-profile-wants-team-members-spread-gly-hear-sp {
+  zoom: 4;
+  -moz-transform: scale(2);
+  color: white;
+  /* Firefox */
+
+}
+.idea-profile-wants-team-members-spread-para {
+  padding-top: 20px;
+}
+/*********************************** start carousel for spread the idea *********************/
+.vertical .carousel-inner {
+  height: 100%;
+}
+.carousel.vertical .item {
+  -webkit-transition: 0.6s ease-in-out top;
+  -moz-transition: 0.6s ease-in-out top;
+  -ms-transition: 0.6s ease-in-out top;
+  -o-transition: 0.6s ease-in-out top;
+  transition: 0.6s ease-in-out top;
+}
+.carousel.vertical .active {
+  top: 0;
+}
+.carousel.vertical .next {
+  top: 100%;
+}
+.carousel.vertical .prev {
+  top: -100%;
+}
+.carousel.vertical .next.left,
+.carousel.vertical .prev.right {
+  top: 0;
+}
+.carousel.vertical .active.left {
+  top: -100%;
+}
+.carousel.vertical .active.right {
+  top: 100%;
+}
+.carousel.vertical .item {
+  left: 0;
+}
+/*********************************** end carousel for spread the idea *********************/
+/*********** end spread the idea    **********************/
+/***************start competance-wanted1 ****************/
+.body-idea-profile-wants-team-members-competence1 {
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+.idea-profile-wants-team-members-competence1 {
+  padding-left: 30px;
+  font-size: 14px;
+}
+.idea-profile-wants-team-members-competence1-gly-gl,
+.idea-profile-wants-team-members-competence1-gly-usr,
+.idea-profile-wants-team-members-competence1-gly-fl {
+  zoom: 1.2;
+}
+/***************end competance-wanted1 ****************/
+/***************start competance-wanted ********************/
+.body-idea-profile-wants-team-members-competence {
+  margin-bottom: 10px;
+}
+.idea-wants-team-team-information {
+  display: table;
+  padding-top: 10px;
+}
+/***************end competance-wanted ********************/
+/***************start comment ****************/
+.body-idea-profile-wants-team-members-comment {
+  padding-left: 20px;
+  margin-top: 20px;
+  padding-bottom: 10px;
+  margin-bottom: 10px;
+}
+.idea-profile-wants-team-members-comment-main {
+  padding: 20px;
+  width: 100%;
+  height: 300px;
+}
+.idea-profile-wants-team-members-comment-placeholder {
+  height: 100%;
+}
+/***************end of  comment ****************/
+/******************* END IDEA-PROFILE-WANTS-TEAM-MEMBERS ********************************/
+/******************* 4. START IDEA-PROFILE-PUBLICITY-WANTED *******************************/
+/*************** start idea title ***************************/
+.jumbotron {
+  background: yellow;
+  margin: 10px;
+}
+.idea-profile-publicity-wanted-para {
+  display: table;
+  margin: 0px auto;
+  padding-bottom: 10px;
+  padding-top: 20px;
+}
+.idea-profile-publicity-wanted-intro {
+  background: white;
+}
+.well {
+  padding: 0px;
+  border-bottom: 0px solid white;
+}
+.idea-profile-publicity-wanted-image-title {
+  zoom: 0.9;
+  width: 100%;
+}
+.idea-profile-publicity-wanted-image-title-why-what {
+  display: table;
+  margin: 0px auto;
+  background: white;
+  padding-top: 10px;
+}
+.idea-profile-publicity-wanted-what-why-date-view {
+  display: table;
+  margin: 0px auto;
+  background: white;
+}
+/*************** end idea title ****************************/
+/*********** start idea description ***************************/
+.body-idea-profile-publicity-wanted-description {
+  margin-bottom: 30px;
+}
+.idea-profile-publicity-wanted-description-right-individ-container {
+  margin-top: 20px;
+}
+.idea-profile-publicity-wanted-description-right-left-container {
+  padding-right: 0px;
+  padding-left: 0px;
+  padding-bottom: ;
+}
+.idea-profile-publicity-wanted-description-right-left {
+  width: 100%;
+  background: red;
+  padding: 0px;
+  margin: 0px;
+}
+.idea-profile-publicity-wanted-description-right-img-left {
+  width: 100%;
+  height: 65px;
+  padding: 0px;
+  margin: 0px;
+}
+.idea-profile-publicity-wanted-description-right-right-cotainer {
+  padding: 0px;
+  padding-left: 5px;
+}
+.idea-profile-publicity-wanted-description-right-right {
+  width: 100%;
+  background: white;
+  padding: 0px;
+  margin: 0px;
+}
+.idea-profile-publicity-wanted-description-gly-right {
+  padding: 0px;
+  margin: 0px;
+}
+.idea-profile-publicity-wanted-description-gly-use,
+.idea-profile-publicity-wanted-description-gly-thu,
+.idea-profile-publicity-wanted-description-gly-glo,
+.idea-profile-publicity-wanted-description-gly-us {
+  zoom: 0.8;
+  -moz-transform: scale(2);
+  /* Firefox */
+
+  color: gray;
+}
+.idea-profile-publicity-wanted-gly-size {
+  padding: 0px;
+  font-size: 12px;
+}
+.idea-profile-publicity-wanted-h5,
+.idea-profile-publicity-wanted-h4 {
+  padding: 0px;
+  margin: 0px;
+}
+/*********** end idea desciption ****************************/
+/***************start spread the idea ***********************/
+.body-idea-profile-publicity-wanted-spread {
+  padding-left: 10px;
+  padding-bottom: 10px;
+  background: lightgray;
+  margin-top: 20px;
+  box-shadow: 1px 1px 1px #D8D8D8 inset;
+}
+.idea-profile-publicity-wanted-spread-the-idea1 {
+  background: ;
+  padding: 10px;
+}
+.idea-profile-publicity-wanted-spread-the-idea1-right {
+  background: ;
+  padding: 0px;
+  margin: 0px;
+}
+.idea-profile-publicity-wanted-spread-the-idea1-left {
+  background: ;
+  padding: 0px;
+  margin: 0px;
+}
+.idea-profile-publicity-wanted-spread-gly-thu-sp1,
+.idea-profile-publicity-wanted-spread-gly-hear-sp {
+  zoom: 4;
+  -moz-transform: scale(2);
+  color: white;
+}
+.idea-profile-publicity-wanted-spread-para {
+  padding-top: 20px;
+}
+/***************end spread the idea ************************/
+/***************start team-information ********************/
+.body-idea-profile-publicity-wanted-team-information {
+  box-shadow: 1px 1px 1px #D8D8D8 inset;
+}
+.idea-profile-publicity-wanted-team-inf {
+  display: table;
+  margin: 0px auto;
+  padding-top: 10px;
+}
+/***************end team-information ********************/
+/***************start comment ****************/
+.idea-profile-publicity-wanted-comment-idea-description {
+  padding: 20px;
+  width: 100%;
+  height: 300px;
+}
+.body-idea-profile-publicity-wanted-comment {
+  padding-left: 20px;
+  margin-top: 20px;
+  padding-bottom: 30px;
+  height: 300px;
+  box-shadow: 1px 1px 1px #D8D8D8 inset;
+}
+.idea-profile-publicity-wanted-comm-pub {
+  height: 100%;
+}
+/***************end of  comment ****************/
+/******************* END IDEA-PROFILE-PUBLICITY-WANTED ********************************/
+/******************* 5. START HOME LOGGED IN *********************************************/
+/********************** start general **********************************/
+.index-home-logged-in {
+  margin-left: 220px;
+  margin-right: 200px;
+  background: url(../../images/bkgrn.png) repeat scroll left right top bottom transparent;
+}
+@media (max-width: 767px) {
+  .index-home-logged-in {
+    -webkit-border-radius: 20px 0 0 0;
+    -moz-border-radius: 20px 0 0 0;
+    border-radius: 20px 0 0 0;
+  }
+}
+.home-logged-in-thumbnail {
+  margin: 0px;
+  padding: 0px;
+}
+.home-logged-in-thumbnail:hover {
+  box-shadow: 0 0 2px 2px #E6E0F8;
+}
+.home-logged-in-img {
+  margin: 0px;
+  padding: 0px;
+  border-top-left-radius: 4px;
+  border-top-right-radius: 4px;
+}
+.load-more-updates-para {
+  display: table;
+  margin: 0px auto;
+  padding-bottom: 20px;
+}
+.home-logged-in-gly-size {
+  padding-left: 10px;
+  font-size: 12px;
+}
+/********************** end general *****************************/
+/************start welcome ************************************/
+.body-home-logged-in-welcom-user {
+  background: white;
+  margin-top: 20px;
+}
+.home-logged-in-button-width {
+  width: 50%;
+  border-radius: 0px;
+}
+.home-logged-in-search {
+  padding-top: 20px;
+}
+/************end welcome **************************************/
+/*********** start related area  *******************************/
+.body-home-logged-in-related-area {
+  margin-bottom: 10px;
+}
+.home-logged-in-more {
+  padding-bottom: 20px;
+}
+/*********** end related area  *******************************/
+/*********** start challenges ***********************************/
+.body-home-logged-in-challenges {
+  background: #E5E4E2;
+  box-shadow: 1px 1px 1px #D8D8D8 inset;
+  padding-top: 10px;
+  padding-bottom: 30px;
+}
+/*********** end challenges ************************************/
+/*********** start category ************************************/
+.body-home-logged-in-category {
+  padding-top: 10px;
+  padding-bottom: 30px;
+  background: white;
+  box-shadow: 1px 1px 1px #D8D8D8 inset;
+}
+/*********** end category *************************************/
+/*********** start recommended-challenges ********************/
+.body-home-logged-in-recommended {
+  padding-top: 10px;
+  background: #E5E4E2;
+  box-shadow: 1px 1px 1px #D8D8D8 inset;
+}
+/*********** end recommended-challenges *********************/
+/******************* END HOME LOGGED IN **********************************************/
+/******************* 6. START MULTIPLE TEAMS *********************************************/
+/******************* start multiple teams-title ***************************/
+.body-multiple-teams-title {
+  display: table;
+  margin: 0px auto;
+  margin-top: 20px;
+}
+.multiple-teams-thumbnail-group {
+  margin-bottom: 20px;
+  background: lightgray;
+  padding-bottom: 20px;
+}
+.multiple-teams-team-leader {
+  margin-left: 2px;
+}
+.multiple-teams-thumb-container-up-right {
+  background: lightgray;
+  margin-top: 40px;
+  margin-right: 20px;
+  padding-left: 20px;
+  padding-top: 5px;
+}
+.multiple-teams-thumbnail-group-list {
+  margin-bottom: 10px;
+  border: 1px solid lightgray;
+  background: lightgray;
+}
+.multiple-teams-description-main-up-left-glyph-usr {
+  zoom: 3;
+  width: 100%;
+}
+.multiple-teams-up {
+  margin-top: 20px;
+  margin-left: 20px;
+}
+.multiple-teams-main-up-left-more {
+  bottom: 20px;
+  padding-right: 20px;
+}
+.multiple-teams-main-btn-width {
+  width: 80%;
+  margin-top: 20px;
+}
+.multiple-teams-main-button-intro {
+  margin-top: 15px;
+  margin-bottom: 10px;
+  margin-left: 30px;
+}
+/******************* End multiple teams-title ***************************/
+/******************* END MULTIPLE TEAMS *********************************************/
+/******************* 7. START PROFILE ********************************************/
+/******************* start general **************************/
+.index-profile {
+  margin-left: 220px;
+  margin-right: 200px;
+  background: url(../../images/bkgrn.png) repeat scroll left right top bottom transparent;
+}
+@media (max-width: 767px) {
+  .index-profile {
+    -webkit-border-radius: 20px 0 0 0;
+    -moz-border-radius: 20px 0 0 0;
+    border-radius: 20px 0 0 0;
+  }
+}
+/******************* end general ***************************/
+/******************* start profile-contact *************************/
+.body-profile-contact {
+  margin-top: 20px;
+}
+.profile-contact-image {
+  width: 100%;
+  border-radius: 4px;
+}
+.profile-contact-btn-width {
+  border-radius: 0px;
+  margin-top: 15px;
+}
+.profile-contact-thumb-name,
+.profile-contact-thumb-txt,
+.profile-contact-thumb-comp,
+.profile-recommend-thumb-recom,
+.profile-idea-teams-thumb-idte,
+.profile-favorite-thumb-favoid {
+  margin-bottom: 20px;
+  border-radius: 0px;
+  text-align: center;
+  box-shadow: 0 0 1px 1px #E6E0F8;
+}
+.body-user-recommendation {
+  margin-top: 20px;
+}
+.profile-recommend-thumb-recom {
+  height: 300px;
+}
+.profile-idea-teams-thumb-idte,
+.profile-favorite-thumb-favoid {
+  height: 400px;
+}
+.profile-contact-thumb-txt,
+.profile-contact-thumb-comp {
+  height: 232px;
+}
+.profile-contact-image-thumbnail {
+  margin: 0px;
+  padding: 0px;
+}
+/******************* end profile-contact **************************/
+/******************* END PROFILE *********************************************/
+/******************* 8. START PROJECT PAGE LOGGED IN ********************************************/
+/******************* start general **************************/
+.index-project-page-logged-in {
+  margin-left: 220px;
+  margin-right: 200px;
+  background: url(../../images/bkgrn.png) repeat scroll left right top bottom transparent;
+}
+@media (max-width: 767px) {
+  .index-project-page-logged-in {
+    -webkit-border-radius: 20px 0 0 0;
+    -moz-border-radius: 20px 0 0 0;
+    border-radius: 20px 0 0 0;
+  }
+}
+/******************* end general ***************************/
+/******************* start title **************************/
+.project-page-logged-in-title {
+  display: table;
+  margin: 0px auto;
+  margin-top: 20px;
+}
+/******************* end title **************************//******************* start main **************************/
+.body-project-page-logged-in-main {
+  margin: 0px auto;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+.project-page-logged-in-main0left-thumbnail-group {
+  margin-bottom: 20px;
+  background: lightgray;
+}
+.project-page-logged-in-main-left-team-leader {
+  margin-left: 2px;
+}
+.project-page-logged-in-thumbnail-forum {
+  box-shadow: 0 0 1px 1px #E6E0F8;
+  height: 200px;
+}
+.project-page-logged-in-main-left-glyp-user {
+  zoom: 3;
+  width: 100%;
+}
+.project-page-logged-in-main-right-team-leader-post-thumbnail {
+  margin-bottom: 40px;
+  height: 100px;
+  box-shadow: 0 0 1px 1px #E6E0F8;
+}
+.project-page-logged-in-main-right-user-post-thumbnail {
+  height: 1000px;
+  box-shadow: 0 0 1px 1px #E6E0F8;
+}
+/******************* end main **************************/
+/******************* END PROJECT PAGE LOGGED IN ********************************************/
+/******************* 9. START SEARCH ********************************************/
+/******************* start general **************************/
+.index-search {
+  margin-left: 220px;
+  margin-right: 200px;
+  background: url(../../images/bkgrn.png) repeat scroll left right top bottom transparent;
+}
+@media (max-width: 767px) {
+  .index-search {
+    -webkit-border-radius: 20px 0 0 0;
+    -moz-border-radius: 20px 0 0 0;
+    border-radius: 20px 0 0 0;
+  }
+}
+/******************* end general ***************************/
+/******************* start search-bar **************************/
+.body-search-bar {
+  margin-top: 20px;
+}
+/******************* end search-bar **************************/
+/******************* start search-main **************************/
+.body-search-main {
+  margin-top: 40px;
+  margin-bottom: 20px;
+}
+.panel-heading .panel-toggle:after {
+  /* symbol for "opening" panels */
+
+  font-family: 'Glyphicons Halflings';
+  /* essential for enabling glyphicon */
+
+  content: "\e114";
+  /* adjust as needed, taken from bootstrap.css */
+
+  float: right;
+  /* adjust as needed */
+
+}
+.panel-heading .panel-toggle.collapsed:after {
+  /* symbol for "collapsed" panels */
+
+  content: "\e080";
+  /* adjust as needed, taken from bootstrap.css */
+
+}
+.search-main-right-idea-row {
+  margin-bottom: 20px;
+}
+#idea-2 > section > a {
+  text-decoration: none;
+}
+#idea-2 > section > a > p:hover {
+  color: black;
+}
+.search-main-right-thumbnail {
+  border-radius: 4px;
+  padding: 0px;
+  margin: 0px;
+  display: block;
+}
+.search-main-right-thumbnail:hover {
+  box-shadow: 0 0 2px 2px #E6E0F8;
+}
+.search-main-right-glyph-user,
+.search-main-right-glyph-thumbs-up,
+.search-main-right-glyph-globe {
+  color: gray;
+}
+.search-main-right-glyph-user,
+.search-main-right-glyph-thumbs-up,
+.search-main-right-glyph-globe {
+  zoom: 0.9;
+  -moz-transform: scale(2);
+}
+.search-main-right-img {
+  margin: 0px;
+  padding: 0px;
+  display: table;
+  border-top-left-radius: 4px;
+  border-top-right-radius: 4px;
+}
+.search-main-right-glyp-size {
+  margin: 0px;
+  padding: 0px;
+  font-size: 12px;
+}
+.search-more {
+  display: table;
+  margin: 0px auto;
+}
+/******************* end search-main **************************/
+/******************* END SEARCH ***********************************************/
+/*----------------------END SPECIFIC STYLES --------------------------------*/

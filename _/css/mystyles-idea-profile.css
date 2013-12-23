@@ -1,19 +1,4 @@
-/************* start header************/
-.nav > li > a:hover,
-.nav > li > a:focus {
-  text-decoration: none;
-  background-color: black;
-}
-.body-header {
-  background: black;
-  box-shadow: -2px 1px 1px #808080;
-}
-.header-container {
-  background: black;
-  display: table;
-  margin: 0px auto;
-}
-/***************** end header *************/
+/************************ start of no name ****************************/
 .index {
   margin-left: 220px;
   margin-right: 200px;
@@ -26,22 +11,9 @@
     border-radius: 20px 0 0 0;
   }
 }
-/*****************Start idea profile publcity wanted ************/
-.idea-profile-publicity-container {
-  background: #ffffff none repeat scroll 0% 0% auto padding-box border-box;
-  border: 1px solid #d0d5cb;
-  border-radius: 5px 5px 5px 5px;
-  box-shadow: 0px 0px 0px 4px rgba(208, 213, 203, 0.298039);
-  color: #121a0d;
-  font: normal normal normal 16px/24px 'Helvetica Neue', Helvetica, Arial, 'Liberation Sans', FreeSans, sans-serif;
-  margin: 0px 178.5px;
-  margin-top: 20px;
-  outline: #121a0d none 0px;
-  margin-bottom: 30px;
-  padding-bottom: 30px;
-}
-/*************** start idea title *************/
-.idea-title-container {
+/************************* end of no name ****************************/
+/*************** start idea title ***************************/
+.idea-profile-title-container {
   background: white;
 }
 .jumbotron {
@@ -76,31 +48,8 @@
   margin: 0px auto;
   background: white;
 }
-/*************** end idea title *************/
-.panel-heading .accordion-toggle:after {
-  /* symbol for "opening" panels */
-
-  font-family: 'Glyphicons Halflings';
-  /* essential for enabling glyphicon */
-
-  content: "\e114";
-  /* adjust as needed, taken from bootstrap.css */
-
-  float: right;
-  /* adjust as needed */
-
-  color: white;
-  /* adjust as needed */
-
-}
-.panel-heading .accordion-toggle.collapsed:after {
-  /* symbol for "collapsed" panels */
-
-  content: "\e080";
-  /* adjust as needed, taken from bootstrap.css */
-
-}
-/*********** start idea desciption **************/
+/*************** end idea title ****************************/
+/*********** start idea description ***************************/
 .idea-description-publicity-wanted {
   padding-left: 35px;
 }
@@ -147,6 +96,7 @@
   zoom: 0.8;
   -moz-transform: scale(2);
   /* Firefox */
+
 }
 .colr {
   padding: 0px;
@@ -160,8 +110,8 @@ h4 {
 .cont-oth {
   margin-top: 20px;
 }
-/*********** end idea desciption **************/
-/***************start spread the idea ****************/
+/*********** end idea desciption ****************************/
+/***************start spread the idea ***********************/
 .idea-publicity-wanted-spread-the-idea-container {
   padding-left: 10px;
   padding-bottom: 10px;
@@ -196,12 +146,13 @@ h4 {
   -moz-transform: scale(2);
   color: white;
   /* Firefox */
+
 }
 .par-spr {
   padding-top: 20px;
 }
-/***************end spread the idea ****************/
-/***************start team-information ****************/
+/***************end spread the idea ************************/
+/***************start team-information ********************/
 .idea-publicity-wanted-team-information {
   box-shadow: 1px 1px 1px #D8D8D8 inset;
 }
@@ -210,13 +161,13 @@ h4 {
   margin: 0px auto;
   padding-top: 10px;
 }
-/***************end team-information ****************/
-/***************start competance-wanted ****************/
+/***************end team-information ********************/
+/***************start competance-wanted ********************/
 .idea-wants-team-team-information {
   display: table;
   padding-top: 10px;
 }
-/***************end competance-wanted ****************/
+/***************end competance-wanted ********************/
 /***************start competance-wanted1 ****************/
 .comp-1 {
   margin: 20px;
@@ -246,27 +197,7 @@ h4 {
   height: 100%;
 }
 /***************end of  comment ****************/
-/*********** start footer *******/
-.body-footer {
-  background: black;
-  box-shadow: -2px 1px 1px #808080;
-}
-footer ul.breadcrumb {
-  background: black;
-  margin: 0 auto;
-  -webkit-border-radius: 0;
-  -moz-border-radius: 0;
-  border-radius: 0;
-}
-footer ul.breadcrumb li {
-  text-shadow: none;
-}
-footer ul.breadcrumb li a {
-  color: white;
-}
-/*************  end footer ************/
-/***********start title of idea *******************/
-/***********end title of idea *******************/
+/*********************************** start carousel for spread the idea *********************/
 .vertical .carousel-inner {
   height: 100%;
 }
@@ -299,3 +230,4 @@ footer ul.breadcrumb li a {
 .carousel.vertical .item {
   left: 0;
 }
+/*********************************** end carousel for spread the idea *********************/
